@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.column2 {
+  width: 100%;
+  margin: auto;
+  padding: 10px 8px;
+}
+.card {
+  transition: box-shadow .3s;
+  box-shadow: 0 0 1px rgba(33,33,33,.2); 
+  border-radius:10px;
+  border: 1px solid #ccc;
+
+  margin: 8px;
+}
+.card:hover {
+  box-shadow: 10px 4px 23px 0 rgba(0, 0, 0, 0.2); 
+  }
+
+.about-section {
+  padding: 5px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="about-section">
+
+  <h1 style=" font-size: 0px; line-height: 0px; text-align: center; font-family: Bebas Neue;";> <a href="\Coding shit\mains\index.html"> <img src="\Coding shit\mains\logo1.png" alt="Jane" width="600" height="200"> </a></h1>
+
+  <p>ICT is our passion, choice, and dedication, find out more about us, and why we chose this track</p>
+</div>
+
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="images/robles.jpg" alt="Jane" style="width:100%">
+      <div class="container">
+        <h2 style=" text-align: center;">John Guiller Robles</h2>
+        <p class="title"; style=" text-align: center;">Group WAN | Member </p>
+        <p style=" text-align: center;">I've been idolizing my programmer aunt since 2016, <br>
+		I guess i'll be working with her soon.</p>
+        <p class ="title"; style=" text-align: center;">gioangelo.malabanan@olivarezcollegetagaytay.edu.ph</p>
+
+		</a>
+      </div>
+    </div>
+  </div>
+  
+
+<div class="row"; style="text-align: center">
+  <div class="column2">
+    <div class="card">
+      <div class="container">
+        <h2 style=" text-align: center;">Why did John choose ICT?</h2>
+        <p class="title"; style=" text-align: center;">Group WAN | Leader </p>
+        <p style=" text-align: center; font-family: century gothic"> <b><em> 
+	I chose TVL-ICT over than any strand because as far as i know after<br>
+	i finished Senior High School within this strand is i can take some Job<br>
+	that is ICT related and also i want to help my family as soon as possible.<br>
+		<br> I hope that TVL-ICT, will enable me to do so.
+</b></em>
+
+</p><br>
+        <p class ="title"; style=" text-align: center; font-family: century gothic">-J.G. Robles | "Why I Chose ICT"</p>
+		 <a href="\Coding shit\mains\index.html">
+        <p><button style ="background-color: #000 padding: 20px;
+  color: white;
+  background-color: #000;
+  cursor: pointer;">
+  
+ Back to main page</button></p>
+		</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
